@@ -57,7 +57,7 @@ export const authOptions: NextAuthOptions = {
         return session;
       }
     },
-    async signIn({ user }: { user: AdapterUser }) {
+    async signIn({ user }: { user: User }) {
       try {
         const userExists = (await getUser(user?.email as string)) as {
           user?: UserProfile;
