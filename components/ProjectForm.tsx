@@ -122,12 +122,12 @@ const ProjectForm = ({ type, session }: Props) => {
         placeholder="https://github.com/yourName"
         setState={(value) => handleStateChange("githubUrl", value)}
       />
-      <FormField
+      {/* <FormField
         title="Title"
         state={form.title}
         placeholder="Flexibble"
         setState={(value) => handleStateChange("title", value)}
-      />
+      /> */}
 
       <CustomMenu
         title="Category"
