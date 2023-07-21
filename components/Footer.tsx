@@ -79,7 +79,7 @@ const Footer = () => {
       </div>
 
       <div className="flexBetween footer_copyright">
-        <p>@ 2023 Flexibble. All rights reserved</p>
+        <p>@ {new Date().getFullYear()} Flexibble. All rights reserved</p>
         <p className="text-gray">
           <span className="font-semibold text-black">10,123</span> projects
           submitted
